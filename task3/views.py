@@ -10,7 +10,7 @@ def index2(request):
         items_per_page = int(items_per_page)
     except ValueError:
         items_per_page = 5
-    paginator = Paginator(posts, 3)
+    paginator = Paginator(posts, items_per_page)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
     return render(request, 'index2.html',{'page_obj': page_obj, 'items_per_page': items_per_page})

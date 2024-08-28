@@ -1,21 +1,27 @@
+/* style.css */
+
+/* Общие стили для всех страниц */
 body {
-    background-color: white;
+    font-family: Arial, sans-serif;
 }
-.page-1 {
-background-color: lightcoral;
+
+/* Стили для конкретных страниц */
+body.page-1 {
+    background-color: #f8f9fa; /* Light gray */
 }
-.page-2 {
-background-color: aqua;
+
+body.page-2 {
+    background-color: #e9ecef; /* Gray */
 }
-.page-3 {
-background-color: lightblue;
+
+body.page-3 {
+    background-color: #dee2e6; /* Dark gray */
 }
-.page-4 {
-background-color: lightgreen;
+
+body.page-4 {
+    background-color: #ced4da; /* Light blue gray */
 }
-.page-5 {
-background-color: lime;
-}
-h1 {
-    text-align: center;
+
+body.page-5 {
+    background-color: #adb5bd; /* Blue gray */
 }
